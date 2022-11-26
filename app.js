@@ -5,7 +5,7 @@ function countdown(num) {
         num--;
 
         if (num <= 0) {
-            clearInterval(number);
+            //clearInterval(number);
             console.log("Done");
         }
         else {
@@ -13,25 +13,25 @@ function countdown(num) {
         }
     }, 1000);
 }
-console.log(countdown(4));
-
-/* 
-Both code executes simultaneously to run Exercise 2 uncomment out this line of code.
+countdown(4);
 
 
-function randomGame() {
-    let randonum;
-    let times = 0;
-    let timer = setInterval(() => {
-        console.log("hello");
-        randonum = Math.random();
-        times++;
+// Both code executes simultaneously to run Exercise 2 uncomment out this line of code.
 
-        if (randonum > .75) {
-            clearInterval(timer);
-            console.log("It took " +times + " to run.");
-        }
-    }, 1000);
 
-}
-console.log(randomGame()); */
+// function randomGame() {
+//     let randonum;
+//     let times = 0;
+//     let timer = setInterval(() => {
+//         console.log("hello");
+//         randonum = Math.random();
+//         times++;
+
+//         if (randonum > .75) {
+//             clearInterval(timer);
+//             console.log("It took " +times + " to run.");
+//         }
+//     }, 1000);
+
+// }
+// console.log(randomGame());
